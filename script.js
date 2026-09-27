@@ -1,3 +1,10 @@
+///////////////////////////
+//       IMPORTS         //
+///////////////////////////
+import { locations } from "./data/locations.js";
+import { items } from "./data/items.js";
+
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -13,3 +20,7 @@ function openTab(evt, tabName) {
 }
 
 
+Object.assign(window, { openTab,
+                        
+                        
+});
