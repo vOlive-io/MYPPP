@@ -28,3 +28,8 @@
 .tabSelector button.active {
     background-color: #9e97ff;
 }
+.tabSelector img {
+    width: 30px;
+    height: 30px;
+    
+}
