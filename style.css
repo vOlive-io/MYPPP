@@ -1,0 +1,30 @@
+.tabcontent {
+    display: none;
+    padding: 1px 12px;
+}
+
+#tabSelectorContainer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.tabSelector button {
+    background-color: inherit;
+    width: 20%;
+    height: 100%;
+    background-color: #bfbaff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabSelector button.active {
+    background-color: #9e97ff;
+}
